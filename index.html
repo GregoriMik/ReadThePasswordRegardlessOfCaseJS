@@ -1,0 +1,45 @@
+<!-- Ładowanie paska przewinięcia strony przy sqrollowaniu -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 5vh;
+        text-align: center;
+        font-family: arial;
+      }
+
+      label,
+      input {
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+      }
+
+      div {
+        border: 2px solid black;
+        font-size: 40px;
+        margin: 20px;
+      }
+      .active {
+        background-color: #000;
+        color: white;
+      }
+      .red {
+        background-color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <label for="pass">Wprowadz hasło: </label>
+    <input type="password" id="pass" />
+    <div class="message"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
